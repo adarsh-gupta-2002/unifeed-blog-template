@@ -1,0 +1,14 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block:var(--space-600) var(--space-200);
+}
+
+@media(max-width:500px){
+    .footer{
+        flex-direction: column;
+        gap:var(--space-100)
+    }
+}

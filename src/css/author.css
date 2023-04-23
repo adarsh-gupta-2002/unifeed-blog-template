@@ -1,0 +1,19 @@
+
+.author{
+  
+    display: flex;
+    align-items: center;
+    gap: var(--space-100);
+}
+
+.author img{
+    --size:3.3rem;
+    width: var(--size);
+}
+h5{
+    font-size: 1.1rem;
+}
+
+.author h5{
+    margin-bottom:0.4rem;
+}
